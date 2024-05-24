@@ -1,18 +1,14 @@
-# ocean_claim
+# Claim Ocean on Wave wallet
 
-## Yêu cầu
-- Taì khoản phải claim ít nhất 1 lần 
+## Requirements:
+- Must claimed Ocean at least 1 time
 
-## Chuẩn bị môi trường
-- Nodejs v18
-- Chạy lệnh  `npm i`
-- Thêm seed phrase vào wallets.txt
-
-## Chạy script
+## Steps:
+- Install NodeJS v18
+- `npm install`
+- Add seed phrase to wallets.txt
 - `node index.js`
 
-
-# Gửi Ocean
-
-- Thay địa chỉ ví muốn chuyển ocean đến ở recipient trong file sendOcean.js
+# Transfer Ocean
+- Replace `recipient` in sendOcean.js with your destination wallet address
 - `node sendOcean.js`
